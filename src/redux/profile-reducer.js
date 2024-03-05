@@ -33,7 +33,6 @@ const profileReducer = (state = initialState, action) => {
     }
     default:
       return state;
-      s;
   }
 };
 
