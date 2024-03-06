@@ -9,7 +9,7 @@ let Users = (props) => {
       });
   }
   sss;
-  s;
+
   return (
     <div>
       {props.users.map((u) => (
