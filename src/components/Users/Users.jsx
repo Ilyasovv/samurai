@@ -8,7 +8,7 @@ let Users = (props) => {
         props.setUsers();
       });
   }
-  ss;
+  s;
 
   return (
     <div>
