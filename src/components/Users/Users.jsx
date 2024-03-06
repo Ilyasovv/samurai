@@ -2,39 +2,13 @@ import React from "react";
 import styles from "./Users.module.css";
 let Users = (props) => {
   if (props.users.length === 0) {
-    debugger;
-    props.setUsers([
-      {
-        id: 1,
-        photoUrl:
-          "https://sourcesofinsight.com/wp-content/uploads/2011/06/Steve-Jobs-2.jpg",
-        followed: true,
-        fullName: "Abai",
-        status: "i am a boss",
-        location: { city: "Biskek", country: "Kyrgyzstan" },
-      },
-      {
-        id: 2,
-        photoUrl:
-          "https://sourcesofinsight.com/wp-content/uploads/2011/06/Steve-Jobs-2.jpg",
-
-        followed: false,
-        fullName: "Misha",
-        status: "i am a programmist",
-        location: { city: "Moscow", country: "Russia" },
-      },
-      {
-        id: 3,
-        photoUrl:
-          "https://sourcesofinsight.com/wp-content/uploads/2011/06/Steve-Jobs-2.jpg",
-
-        followed: true,
-        fullName: "Tom",
-        status: "i am a designer",
-        location: { city: "New-York", country: "Amerika" },
-      },
-    ]);
+    axios
+      .get("https://social-network.samuraijs.com/api/1.0/users")
+      .then((response) => {
+        props.setUsers();
+      });
   }
+  sss;
   return (
     <div>
       {props.users.map((u) => (
