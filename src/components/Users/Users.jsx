@@ -23,7 +23,7 @@ let Users = (props) => {
               />
             </div>
             <div>
-              ss
+              s
               {u.followed ? (
                 <button
                   onClick={() => {
