@@ -23,8 +23,10 @@ let Users = (props) => {
               />
             </div>
             <div>
+              {" "}
               {u.followed ? (
                 <button
+                  className={styles.button}
                   onClick={() => {
                     props.unfollow(u.id);
                   }}
@@ -33,6 +35,7 @@ let Users = (props) => {
                 </button>
               ) : (
                 <button
+                  className={styles.button}
                   onClick={() => {
                     props.follow(u.id);
                   }}

@@ -1,4 +1,8 @@
 .userPhoto {
   width: 100px;
   height: 70px;
+  color: blur(0.5);
+}
+.button {
+  border-radius: 8px;
 }
