@@ -12,7 +12,7 @@ class Users extends React.Component {
         this.props.setUsers(response.data.items);
       });
   }
-  aa;
+  a;
   render() {
     return (
       <div>
