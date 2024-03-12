@@ -6,3 +6,6 @@
 .button {
   border-radius: 8px;
 }
+.selectedPage {
+  font-weight: bold;
+}
