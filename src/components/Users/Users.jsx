@@ -32,7 +32,7 @@ class Users extends React.Component {
     for (let i = 1; i <= pagesCount; i++) {
       pages.push(i);
     }
-    sss;
+    ss;
     return (
       <div>
         <div>
