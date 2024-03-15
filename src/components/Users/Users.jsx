@@ -11,6 +11,7 @@ class Users extends React.Component {
       )
       .then((response) => {
         this.props.setUsers(response.data.items);
+        this.props.setTotalUsersCount(response.data.totalCount);
       });
   }
   onPageChanged = (pageNumber) => {
@@ -31,6 +32,7 @@ class Users extends React.Component {
     for (let i = 1; i <= pagesCount; i++) {
       pages.push(i);
     }
+    ssss;
     return (
       <div>
         <div>
