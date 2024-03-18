@@ -18,7 +18,6 @@ const ProfileInfo = (props) => {
           <div>Instagram: {props.profile.instagram}</div>
           <div>GitHub: {props.profile.lookingForAJobDescripion}</div>
         </div>
-        s
       </div>
     </div>
   );
