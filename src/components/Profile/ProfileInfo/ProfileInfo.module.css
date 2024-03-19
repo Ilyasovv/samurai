@@ -1,3 +1,15 @@
 .descriptionBlock {
-    padding: 10px;
+  padding: 10px;
+}
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.userName {
+  font-weight: bold;
+  font-size: 20px;
+}
+.userTitle {
+  font-size: 15px;
 }
